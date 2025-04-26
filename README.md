@@ -3,7 +3,7 @@ A program to calculate the Discriminant of a quadratic polynomial and the corres
 
 **Disclaimer**: I wrote this program back when I was 16. The code has not been changed ever since, however, I decided to release it now. :)
 
-<h1>Mathematics Refreshener</h1>
+<h1>Mathematics Refresher</h1>
 
 <h2>Quadratic function</h2>
 
