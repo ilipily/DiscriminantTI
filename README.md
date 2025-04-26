@@ -53,3 +53,7 @@ x = (6 - 2)/8 and (6 + 2)/8<br>
 x = 0.5 and x = 1<br>
 
 In the quadratic function <b>f(x) = 4x² - 6x + 2</b> the parabola will have zeros at <b>x = 0.5</b> and <b>x = 1</b>.
+
+<h3>Setup</h3>
+Installing programs on the Texas Instruments TI-84 Plus calculator requires you, to install the TI Connect CE software.
+Link: https://education.ti.com/en/products/computer-software/ti-connect-ce-sw
