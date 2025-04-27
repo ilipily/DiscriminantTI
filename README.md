@@ -44,7 +44,7 @@ x = (-6)² - 4.4.2<br>
 x = 36 - 32<br>
 x = 4<br>
 <br>
-X is positive in this case, meaning that there are two real roots.<br>
+X is positive in this case, meaning there are two real roots.<br>
 
 <b>x = [-b ± √(b2 - 4ac)]/2a</b><br>
 x = [-(-6) ± √((-6)² - 4.4.2)]/2.4<br>
@@ -53,7 +53,7 @@ x = (6 - 2)/8 and (6 + 2)/8<br>
 x = 0.5 and x = 1<br>
 
 In the quadratic function <b>f(x) = 4x² - 6x + 2</b> the parabola will have zeros at <b>x = 0.5</b> and <b>x = 1</b>.<br><br>
-<I>The program solves all 3 formulas in less than 1 second. :)</i>
+<i>The program solves all 3 formulas in less than 1 second. :)</i>
 
 <h2>Setup</h2>
 <h3>Requirements</h3>
@@ -70,12 +70,12 @@ In the quadratic function <b>f(x) = 4x² - 6x + 2</b> the parabola will have zer
 6. Click on "Actions" (4th horizontal tab) and click on "send to calculators".<br>
 <br>
 The application is now available on the calculator by using the "PRGM" button. (3rd row, 3rd button)
-<h4>Troubleshooting</h4>
-It is possible that the application will throw an error after you have entered the 3 variables:<br><br>
+<h3>Troubleshooting</h3>
+The application may throw an error after you have entered the 3 variables:<br><br>
 <li><b>Your discriminant is negative; hence, the parabola will not have any zeros on the x-axis.</b></li><br>
 In this case, you will be greeted with the "ERR: NONREAL ANS" error. Click on "Quit" or option "1". The program will show you the negative discriminant.<br><br>
 <li><b>You have used the "-" button instead of the "(-)" button. Kindly note that you have to enter negative values using the (-) button.</b></li><br>
-You have entered the wrong '-' sign, you will be greeted immediately with "ERR: SYNTAX". Click on "Goto" or option "2" and replace the "-" sign with "(-)".<br>
+You have entered the wrong '-' sign; you will be greeted immediately with "ERR: SYNTAX". Click on "Goto" or option "2" and replace the "-" sign with "(-)".<br>
 <h2>Further development</h2>
 I have no plans to further develop more functionality.<br>
 However, this leaves room for you to develop further upon the basics. :)
