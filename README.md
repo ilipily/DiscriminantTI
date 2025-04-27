@@ -1,7 +1,7 @@
 # DiscriminantTI
 A program to calculate the Discriminant of a quadratic polynomial and the corresponding zeros for the Texas Instruments TI-84 Plus.
 
-**Disclaimer**: I wrote this program back when I was 16. The code has not been changed ever since, however, I decided to release it now. :)
+**Disclaimer**: I wrote this basic program back when I was 16. The code has not been changed ever since, however, I decided to release it now. :)
 
 <h1>Mathematics Refresher</h1>
 
@@ -29,13 +29,13 @@ The discriminant in this case refers to a polynomial function of the coefficient
 <b>If real coefficients</b>; the discriminant is positive <b>if</b> the polynomial has two disctinct real roots.<br>
 <b>If real coefficients</b>; the discriminant is negative <b>if</b> the polynomial has two disctinct complex conjugate roots.<br>
 
-<h2>Coding the program</h2>
-<h3>Info</h3>
+<h1>Using the program</h1>
+<h2>Info</h2>
 This program was coded to enhance the efficiency of solving the discriminant and finding the zeros during my classes of mathematics. It's developed to use on the Texas Instruments TI-84 Plus calculators.<br>
 <br>
 The program captures the quadratic formula by user input of <b>a, b, and c</b>. 
 <br>
-<h3>Mathematics behind the program</h3>
+<h2>Mathematics behind the program</h2>
 As an example, in function <b>f(x) = 4x² - 6x + 2</b>, we understand that <b>a = 4</b>, <b>b = -6</b>, and <b>c = 2</b>.<br>
 <br>
 Solving the Discriminant goes as follows:<br>
@@ -52,8 +52,30 @@ x = [6 ± √4]/8<br>
 x = (6 - 2)/8 and (6 + 2)/8<br>
 x = 0.5 and x = 1<br>
 
-In the quadratic function <b>f(x) = 4x² - 6x + 2</b> the parabola will have zeros at <b>x = 0.5</b> and <b>x = 1</b>.
+In the quadratic function <b>f(x) = 4x² - 6x + 2</b> the parabola will have zeros at <b>x = 0.5</b> and <b>x = 1</b>.<br><br>
+<I>The program solves all 3 formulas in less than 1 second. :)</i>
 
-<h3>Setup</h3>
-Installing programs on the Texas Instruments TI-84 Plus calculator requires you, to install the TI Connect CE software.
-Link: https://education.ti.com/en/products/computer-software/ti-connect-ce-sw
+<h2>Setup</h2>
+<h3>Requirements</h3>
+<li>TI Connect CE software. Link: https://education.ti.com/en/products/computer-software/ti-connect-ce-sw
+</li>
+<li>Latest version of DiscriminantTI application</li>
+<li>TI-84 Plus calculator with cable</li>
+<h3>Installation</h3>
+1. Install the TI Connect software and driver.<br>
+2. Connect the TI-84 Plus calculator to your computer using the cable.<br>
+3. Download the DiscriminantTI application from GitHub.<br>
+4. Open the TI Connect software and head over to the 3rd vertical tab. (3 square blocks)<br>
+5. Click on "Open Program" and select the DiscriminantTI application.<br>
+6. Click on "Actions" (4th horizontal tab) and click on "send to calculators".<br>
+<br>
+The application is now available on the calculator by using the "PRGM" button. (3rd row, 3rd button)
+<h4>Troubleshooting</h4>
+It is possible that the application will throw an error after you have entered the 3 variables:<br><br>
+<li><b>Your discriminant is negative; hence, the parabola will not have any zeros on the x-axis.</b></li><br>
+In this case, you will be greeted with the "ERR: NONREAL ANS" error. Click on "Quit" or option "1". The program will show you the negative discriminant.<br><br>
+<li><b>You have used the "-" button instead of the "(-)" button. Kindly note that you have to enter negative values using the (-) button.</b></li><br>
+You have entered the wrong '-' sign, you will be greeted immediately with "ERR: SYNTAX". Click on "Goto" or option "2" and replace the "-" sign with "(-)".<br>
+<h2>Further development</h2>
+I have no plans to further develop more functionality.<br>
+However, this leaves room for you to develop further upon the basics. :)
